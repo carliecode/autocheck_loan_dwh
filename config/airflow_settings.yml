@@ -1,0 +1,3 @@
+airflow:
+  dags_folder: '/path/to/etl_project/airflow/dags'
+  plugins_folder: '/path/to/etl_project/airflow/plugins'
