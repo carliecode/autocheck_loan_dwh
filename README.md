@@ -1,9 +1,9 @@
-Customer Loan Data Warehouse Proof of Concept
+Customer Loan Data Warehouse
 =====================================================
 
 Overview
 ------------
-This proof of concept (PoC) demonstrates the importation of customer and loan data from CSV and Excel files into a staging environment of an MS SQL database. The project showcases an effective dimensional model design for easy and fast reporting.
+This DWH solution demonstrates the importation of customer and loan data from CSV and Excel files into the bronze and silver environment of an MS SQL database. The project showcases an effective dimensional model (Ralph Kimball) design for easy and fast reporting.
 
 Project Structure
 ---------------------
@@ -15,12 +15,12 @@ The project consists of the following files and folders:
   - Schedule_Data.csv: Payment schedules
   - dags/: Contains Airflow DAG files for workflow orchestration
   - logs/: Stores daily data logs
-  - sql/: Contains SQL queries:par_overdue_loans.sql: Calculates PAR Days (number of days a loan was not paid in full)
+  - sql/: Contains SQL queries:par_overdue_loans.sql: Calculates PAR Days (number of days a loan was not paid in full), data mapping document and the database model
   - images/: Contains data model diagrams:
   
 Data Model
 --------------
-Data Model Diagram
+![Image Description](sql\data_model.png)
 
 
 Technical Approach
