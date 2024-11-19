@@ -1,14 +1,28 @@
-2024-11-19 18:31:48,768 - INFO - AutoCheck (Loan DWH) - Starting.
-2024-11-19 18:31:48,802 - INFO - Reading input files (csv and excel) to db staging
-2024-11-19 18:31:49,134 - INFO - The extraction of data\Borrower_Data.xlsx to Borrowers has completed.
-2024-11-19 18:31:49,198 - INFO - The extraction of data\Loan_Data.csv to Loans has completed.
-2024-11-19 18:31:49,292 - INFO - The extraction of data\Schedule_Data.xlsx to Payment_Schedules has completed.
-2024-11-19 18:31:49,801 - INFO - The extraction of data\Repayment_Data.csv to Payments has completed.
-2024-11-19 18:31:49,820 - INFO - All input files has been imported to db staging.
-2024-11-19 18:31:49,823 - INFO - Processing Customer (Borrower) information...
-2024-11-19 18:31:50,540 - INFO - Processing Loan information...
-2024-11-19 18:31:50,958 - INFO - Processing Loan Payment Schedules information...
-2024-11-19 18:31:54,663 - INFO - Processing Loan Payments information...
-2024-11-19 18:31:57,008 - INFO - AutoCheck (Loan DWH) - Completed.
+2024-11-19 22:41:36,187 - INFO - AutoCheck (Loan DWH) - Starting.
+2024-11-19 22:41:36,208 - INFO - Reading input files (csv and excel) to db staging.
+2024-11-19 22:41:36,548 - INFO - The extraction of data\Borrower_Data.xlsx to Borrowers has completed.
+2024-11-19 22:41:36,611 - INFO - The extraction of data\Loan_Data.csv to Loans has completed.
+2024-11-19 22:41:36,690 - INFO - The extraction of data\Schedule_Data.xlsx to Payment_Schedules has completed.
+2024-11-19 22:41:37,123 - INFO - The extraction of data\Repayment_Data.csv to Payments has completed.
+2024-11-19 22:41:37,126 - INFO - All input files have been imported to db staging.
+2024-11-19 22:41:37,141 - INFO - Processing Customer (Borrower) information...
+2024-11-19 22:41:41,044 - INFO - Processing Loan information...
+2024-11-19 22:41:43,395 - INFO - Processing Loan Payment Schedules information...
+2024-11-19 22:41:45,231 - INFO - Processing Loan Payments information...
+2024-11-19 22:41:47,261 - INFO - AutoCheck (Loan DWH) - Completed.
+
+
+2024-11-19 22:42:15,256 - INFO - AutoCheck (Loan DWH) - Starting.
+2024-11-19 22:42:15,273 - INFO - Reading input files (csv and excel) to db staging.
+2024-11-19 22:42:15,592 - INFO - The extraction of data\Borrower_Data.xlsx to Borrowers has completed.
+2024-11-19 22:42:15,651 - INFO - The extraction of data\Loan_Data.csv to Loans has completed.
+2024-11-19 22:42:15,730 - INFO - The extraction of data\Schedule_Data.xlsx to Payment_Schedules has completed.
+2024-11-19 22:42:16,137 - INFO - The extraction of data\Repayment_Data.csv to Payments has completed.
+2024-11-19 22:42:16,153 - INFO - All input files have been imported to db staging.
+2024-11-19 22:42:16,169 - INFO - Processing Customer (Borrower) information...
+2024-11-19 22:42:16,216 - INFO - Processing Loan information...
+2024-11-19 22:42:16,263 - INFO - Processing Loan Payment Schedules information...
+2024-11-19 22:42:16,444 - INFO - Processing Loan Payments information...
+2024-11-19 22:42:16,641 - INFO - AutoCheck (Loan DWH) - Completed.
 
 
