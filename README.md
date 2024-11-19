@@ -21,7 +21,7 @@ The project consists of the following files and folders:
 Data Model
 --------------
 Data Model Diagram
-!
+
 
 Technical Approach
 ----------------------
@@ -34,17 +34,13 @@ Technical Approach
   - Update/Insert Strategy: Existing records are updated if matched; new records are inserted otherwise.
     
 **Monitoring and Logging:**
-Logging: Daily data logs are stored in the logs/ folder.
-Monitoring: Utilizes Prometheus capabilities for application monitoring.
+  - Logging: Daily data logs are stored in the logs/ folder.
+  - Monitoring: Utilizes Prometheus capabilities for application monitoring.
 
 Data Mapping
 ----------------
 Data Mapping Table
-Source File	Target Table	Description
-borrowers_data.xlsx	dim_borrowers	Customer information
-loan_data.csv	fact_loans	Loan information
-repayment_Data.csv	fact_repayments	Loan repayment data
-Schedule_Data.csv	dim_schedules	Payment schedules
+
 
 PAR Days Calculation
 -------------------------
@@ -52,27 +48,27 @@ The par_overdue_loans.sql query calculates the PAR Days, which represents the nu
 
 Orchestration
 -----------------
-Airflow is used for workflow orchestration, with DAG files stored in the dags/ folder.
+  - Airflow is used for workflow orchestration, with DAG files stored in the dags/ folder.
 
 Prerequisites
 -----------------
-MS SQL database setup
-Prometheus installation (for monitoring)
-Airflow installation (for orchestration)
+  - MS SQL database setup
+  - Prometheus installation (for monitoring)
+  - Airflow installation (for orchestration)
 
 Usage
 ---------
-Clone the repository.
-Update database connection settings.
-Run the ETL process.
-Verify data importation and dimensional model.
+  - Clone the repository.
+  - Update database connection settings.
+  - Run the ETL process.
+  - Verify data importation and dimensional model.
 
 Future Enhancements
 ----------------------
-Implement data validation rules
-Integrate with reporting tools (e.g., Power BI, Tableau)
-Explore additional monitoring capabilities
+  - Implement data validation rules
+  - Integrate with reporting tools (e.g., Power BI, Tableau)
+  - Explore additional monitoring capabilities
 
 Acknowledgments
 ------------------
-[Insert acknowledgments or references]
+
