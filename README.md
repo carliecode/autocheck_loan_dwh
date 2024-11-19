@@ -18,11 +18,7 @@ The project consists of the following files and folders:
   - sql/: Contains SQL queries:par_overdue_loans.sql: Calculates PAR Days (number of days a loan was not paid in full), data mapping document and the database model
   - images/: Contains data model diagrams:
   
-Data Model
---------------
-![Image Description](sql\data_model.png)
-
-
+  
 Technical Approach
 ----------------------
 **Data Warehousing:** 
